@@ -54,3 +54,21 @@ You can also run the app without packaging it using -
 ```bash
 mvn spring-boot:run
 ```
+
+**5. Goals for this fork**
+
++ Integration with Spring.  As of Spring-Boot-2 part of its tech stack.  Explore!
+  + Specific beans from Flyway: what are they for
+  + Integration with Spring properties
+  + Spring properties for staging (DEV/TEST/INT/ACC/PRD)
+  + ...
+  
++ Problem solving with Flyway
+  + Start from existing DB
+  + Clean DB when corrupt (No production env obviously)
+  + Usage in tests (With or without Spring)
+  + Issues with DB script versioning
+  + ...
+  
++ Pro/con vs. other competing frameworks such as Liquibase, DbMaintain, ...
+  
